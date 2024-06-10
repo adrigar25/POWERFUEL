@@ -1,0 +1,20 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@media (min-width: 0px) {
+    .modalLogin {
+      margin-top: 4rem;
+      margin-bottom: 4rem;
+    }
+  }
+
+.customScrollShadow {
+  scrollbar-width: none;
+  -ms-overflow-style: none;
+  -webkit-overflow-scrolling: touch;
+}
+
+.customScrollShadow::-webkit-scrollbar {
+    display: none;
+}
